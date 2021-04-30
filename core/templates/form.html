@@ -1,0 +1,30 @@
+{% load static %}
+<section id="formulario">
+    <div class="inner">
+		<h3>Contato</h3>
+		<form method="post" action="{% url 'index' %}" autocomplete="off">
+			{% csrf_token %}
+			<div class="row uniform 50%">
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="nome" id="nome" value="" placeholder="Nome" required data-error="Preencha seu Nome"/>
+				</div>
+				<div class="6u$ 12u$(xsmall)">
+					<input type="email" name="email" id="email" value="" placeholder="E-mail" required data-error="Preencha seu E-mail"/>
+				</div>
+				<div class="12u$">
+					<input type="text" name="assunto" id="assunto" value="" placeholder="Assunto" required data-error="Preencha Assunto" />
+				</div>
+
+				<div class="12u$">
+					<textarea name="mensagem" id="mensagem" placeholder="Enter your message" rows="6" required data-error="Preencha sua Mensagem"></textarea>
+				</div>
+				<div class="12u$">
+					<ul class="actions">
+						<li><input type="submit" value="Enviar Mensagem" class="special" /></li>
+						<li><input type="reset" value="Redefinir" /></li>
+					</ul>
+				</div>
+ 			</div>
+		</form>
+    </div>
+</section>

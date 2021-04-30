@@ -1,0 +1,23 @@
+{% extends 'core.html' %}
+{% load static %}
+{% block content %}
+		<!-- Main -->
+<section id="main" >
+	<div class="inner">
+		<h4>Artigos 2021</h4>
+		{% for b in blog %}
+		<h4>...</h4>
+		<header>
+			<h5><a href="#"> {{ b.titulo }} </a></h5>
+			<p>{{ b.descricao }} - Criado em {{ b.criados }}</p>
+		</header>
+			<li>{{ b.apresentacao }}<a href="#">this is a link</a></li>
+		{% endfor %}
+	</div>
+</section>
+
+		<!-- Footer -->
+
+		{% include 'footer.html' %}
+
+{% endblock %}
