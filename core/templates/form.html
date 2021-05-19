@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <section id="formulario">
     <div class="inner">
 		<h3>Contato</h3>
@@ -6,22 +7,22 @@
 			{% csrf_token %}
 			<div class="row uniform 50%">
 				<div class="6u 12u$(xsmall)">
-					<input type="text" name="nome" id="nome" value="" placeholder="Nome" required data-error="Preencha seu Nome"/>
+					<input type="text" name="nome" id="nome" value="" placeholder="Nome" required data-error="{% trans 'Preencha seu Nome' %}"/>
 				</div>
 				<div class="6u$ 12u$(xsmall)">
-					<input type="email" name="email" id="email" value="" placeholder="E-mail" required data-error="Preencha seu E-mail"/>
+					<input type="email" name="email" id="email" value="" placeholder="E-mail" required data-error="{% trans 'Preencha seu E-mail' %}"/>
 				</div>
 				<div class="12u$">
-					<input type="text" name="assunto" id="assunto" value="" placeholder="Assunto" required data-error="Preencha Assunto" />
+					<input type="text" name="assunto" id="assunto" value="" placeholder="Assunto" required data-error="{% trans 'Preencha Assunto' %}" />
 				</div>
 
 				<div class="12u$">
-					<textarea name="mensagem" id="mensagem" placeholder="Enter your message" rows="6" required data-error="Preencha sua Mensagem"></textarea>
+					<textarea name="mensagem" id="mensagem" placeholder="Enter your message" rows="6" required data-error="{% trans 'Preencha sua Mensagem' %}"></textarea>
 				</div>
 				<div class="12u$">
 					<ul class="actions">
-						<li><input type="submit" value="Enviar Mensagem" class="special" /></li>
-						<li><input type="reset" value="Redefinir" /></li>
+						<li><input type="submit" value="{% trans 'Enviar Mensagem' %}" class="special" /></li>
+						<li><input type="reset" value="{% trans 'Redefinir' %}" /></li>
 					</ul>
 				</div>
  			</div>

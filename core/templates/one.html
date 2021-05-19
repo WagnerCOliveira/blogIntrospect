@@ -1,12 +1,13 @@
 {% load static %}
+{% load i18n %}
 <section id="one">
 				<div class="inner">
 					<header>
-						<h2>Quem Sou</h2>
+						<h2>{% trans 'Quem Sou' %}</h2>
 					</header>
-					<p> De Natureza paciente, aprecio muito o que Linux oferece há todos, o ciclismo, e os esportes como modo operante em meu kernel, o que mais me chama atenção no Linux, é a incrível capacidade dele à se moldar em nossas infra estruturas, versatilidade, entre outros adjetivos, isso é o diferencial no mundo competitivo, minha experiencia em Linux foi construída ao longo de +15 anos de profissão em ambientes de pequeno e médio porte, iniciando comprando revistas da infoexame em 2002 e até hoje sempre atento as novas tecnologias.</p>
+					<p> {% trans 'De Natureza paciente, aprecio muito o que Linux oferece há todos, o ciclismo, e os esportes como modo operante em meu kernel, o que mais me chama atenção no Linux, é a incrível capacidade dele à se moldar em nossas infra estruturas, versatilidade, entre outros adjetivos, isso é o diferencial no mundo competitivo, minha experiencia em Linux foi construída ao longo de +15 anos de profissão em ambientes de pequeno e médio porte, iniciando comprando revistas da infoexame em 2002 e até hoje sempre atento as novas tecnologias.' %}</p>
 					<ul class="actions">
-						<li><a href="{% url 'quemsou' %}" class="button alt">Leia Mais</a></li>
+						<li><a href="{% url 'quemsou' %}" class="button alt">{% trans 'Leia Mais' %}</a></li>
 					</ul>
 				</div>
 </section>

@@ -1,22 +1,23 @@
 {% extends 'core.html' %}
 {% load static %}
+{% load i18n %}
 {% block content %}
 
 <section id="one">
 	<div class="inner">
-		<h4>Quem Sou</h4>
+		<h4>{% trans 'Quem Sou' %}</h4>
 		<p>
 			<span class="image left">
 			<img src="{% static 'images/pic08.jpg' %}" alt="" />
-			</span>De Natureza paciente, aprecio muito o que Linux oferece há todos, o ciclismo, e os esportes como modo operante em meu kernel, o que mais me chama atenção no Linux, é a incrível capacidade dele à se moldar em nossas infra estruturas, versatilidade, entre outros adjetivos, isso é o diferencial no mundo competitivo, minha experiencia em Linux foi construída ao longo de +15 anos de profissão em ambientes de pequeno e médio porte, iniciando comprando revistas da infoexame em 2002 e até hoje sempre atento as novas tecnologias. Trabalho como Analista de Sistemas, melhor "dizendo" Sysadmin participando de alguns projetos importantes, onde o mais recente é o Vacinejá da Prefeitura de Fortaleza, nas horas vagas sou ciclista, onde utilizo o esporte para desintoxicar a mente, excelente meio de transporte e já participei de algumas competições, sou entusiasta de novas tecnologias e novos padrões. Na minha vida profissional procuro automatizar, monitorar os serviços ao meu redor para melhorar a agilidade, confiabilidade, diponibilidade dos mesmos.
+			</span>{% trans 'De Natureza paciente, aprecio muito o que Linux oferece há todos, o ciclismo, e os esportes como modo operante em meu kernel, o que mais me chama atenção no Linux, é a incrível capacidade dele à se moldar em nossas infra estruturas, versatilidade, entre outros adjetivos, isso é o diferencial no mundo competitivo, minha experiencia em Linux foi construída ao longo de +15 anos de profissão em ambientes de pequeno e médio porte, iniciando comprando revistas da infoexame em 2002 e até hoje sempre atento as novas tecnologias. Trabalho como Analista de Sistemas, melhor "dizendo" Sysadmin participando de alguns projetos importantes, onde o mais recente é o Vacinejá da Prefeitura de Fortaleza, nas horas vagas sou ciclista, onde utilizo o esporte para desintoxicar a mente, excelente meio de transporte e já participei de algumas competições, sou entusiasta de novas tecnologias e novos padrões. Na minha vida profissional procuro automatizar, monitorar os serviços ao meu redor para melhorar a agilidade, confiabilidade, diponibilidade dos mesmos.' %}
 		</p>
 		<p>
 			<span class="image right">
 				<img src="{% static 'images/pic06.jpg' %}" alt="" />
-			</span> Porem no pessoal procuro por experiencias de conquistas, prazer e saúde. nas minhas férias costumo fazer viagens de bicicleta, já conheci as praias de quase todo litoral cearense e do piauí, serras e sertão do ceará e em 2017 e 2019 tive o prazer de fazer o caminho da fé, foi uma experiência que ultrapassou minhas expectativas, por se tratar de lugar onde podemos estar diretamente envolvido pela natureza, onde o tempo quase não existe, tudo é calmo e tem sua hora de acontecer, você estará sempre no seu limite físico e mental, e você se sente muito agradecido por está ali pedalando ou caminhando conhecendo pessoas, costumes, cultura de outra região do brasil e principalmente se conhecendo, se encontrando.
+			</span> {% trans 'Porem no pessoal procuro por experiencias de conquistas, prazer e saúde. nas minhas férias costumo fazer viagens de bicicleta, já conheci as praias de quase todo litoral cearense e do piauí, serras e sertão do ceará e em 2017 e 2019 tive o prazer de fazer o caminho da fé, foi uma experiência que ultrapassou minhas expectativas, por se tratar de lugar onde podemos estar diretamente envolvido pela natureza, onde o tempo quase não existe, tudo é calmo e tem sua hora de acontecer, você estará sempre no seu limite físico e mental, e você se sente muito agradecido por está ali pedalando ou caminhando conhecendo pessoas, costumes, cultura de outra região do brasil e principalmente se conhecendo, se encontrando.' %}
 		</p>
 
-		<h4>Imagens das viagens</h4>
+		<h4>{% trans 'Imagens das viagens' %}</h4>
 		<div class="box alt">
 			<div class="row 50% uniform">
 				<div class="12u$"><span class="image fit"><img src="{% static 'images/pic11.jpg' %}" alt="" /></span></div>

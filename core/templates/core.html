@@ -1,4 +1,6 @@
 {% load static %}
+{% load i18n %}
+
 <!DOCTYPE HTML>
 <html lang="{{ lang }}">
 	<head>
@@ -14,9 +16,9 @@
 				<div class="inner">
 					<a href="{% url 'index' %}" class="logo">WagnerCOliveira</a>
 					<nav id="nav">
-						<a href="{% url 'index' %}" class="scrollSuave">Inicio</a>
-						<a href="{% url 'blog' %}">Blog</a>
-						<a href="#formulario" class="scrollSuave">Contato</a>
+						<a href="{% url 'index' %}" class="scrollSuave">{% trans 'Inicio' %}</a>
+						<a href="{% url 'blog' %}">{% trans 'Blog' %}</a>
+						<a href="#formulario" class="scrollSuave">{% trans 'Contato' %}</a>
 					</nav>
 				</div>
 			</header>
@@ -44,3 +46,4 @@
 
 	</body>
 </html>
+

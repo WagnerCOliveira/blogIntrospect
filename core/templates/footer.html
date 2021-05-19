@@ -1,11 +1,12 @@
 {% load static %}
+{% load i18n %}
 <section id="footer">
 
 	<div class="inner">
 		<article>
 			<div>
 				<header>
-					<h4>fale conosco</h4>
+					<h4>{% trans 'fale conosco' %}</h4>
 				</header>
 				<ul>
 					<li>
@@ -18,20 +19,20 @@
 		<article>
 			<div>
 				<header>
-					<h4>Princípios</h4>
+					<h4>{% trans 'Princípios' %}</h4>
 				</header>
 				<ul>
-					<li>"Generosidade Mental"</li>
-					<li>"Coerência Etica"</li>
-					<li>"Humildade Intelectual"</li>
-					<p>de Mario Sergio Cortela</p>
+					<li>{% trans '"Generosidade Mental"' %}</li>
+					<li>{% trans '"Coerência Etica"' %}</li>
+					<li>{% trans '"Humildade Intelectual"' %}</li>
+					<p> de Mario Sergio Cortela </p>
 				</ul>
 			</div>
 		</article>
 		<article>
 			<div>
 				<header>
-					<h4>Redes Sociais</h4>
+					<h4>{% trans 'Redes Sociais' %}</h4>
 				</header>
 				<ul class="icons">
 					<li><a href="https://twitter.com/waguimoliver" class="icon fa-twitter-square"><span class="label">Twitter</span></a></li>

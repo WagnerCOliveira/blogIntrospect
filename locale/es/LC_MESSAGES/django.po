@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-19 13:22-0300\n"
-"PO-Revision-Date: 2021-05-19 13:31-0300\n"
+"POT-Creation-Date: 2021-05-19 14:22-0300\n"
+"PO-Revision-Date: 2021-05-19 14:36-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.3\n"
 
 #: core/forms.py:7 core/forms.py:18
@@ -48,7 +48,7 @@ msgstr "Actualizar"
 
 #: core/models.py:7
 msgid "Ativo?"
-msgstr "Activo"
+msgstr "Activo?"
 
 #: core/models.py:13
 msgid "Titulo"
@@ -62,7 +62,7 @@ msgstr "Descripción"
 msgid "Apresentação"
 msgstr "Presentación"
 
-#: core/models.py:18
+#: core/models.py:18 core/templates/core.html:20
 msgid "Blog"
 msgstr "Blog"
 
@@ -70,9 +70,240 @@ msgstr "Blog"
 msgid "Blogs"
 msgstr "Blogs"
 
+#: core/templates/banner.html:6
+msgid "Reflexão:"
+msgstr "Reflexión:"
+
+#: core/templates/banner.html:6
+msgid "Quais os momentos"
+msgstr "Cuales son los momentos"
+
+#: core/templates/banner.html:7
+msgid "mais DESAFIADORES de nossas vidas."
+msgstr "la mayoría de los DESAFÍOS de nuestras vidas."
+
+#: core/templates/banner.html:9
+msgid "Venha conhecer os Meus"
+msgstr "Ven y conoce el mío"
+
+#: core/templates/blog.html:8
+msgid "Artigos 2021"
+msgstr "Artículos 2021"
+
+#: core/templates/blog.html:13
+msgid "Criado em"
+msgstr "Creado en"
+
+#: core/templates/core.html:19
+msgid "Inicio"
+msgstr "Comienzo"
+
+#: core/templates/core.html:21
+msgid "Contato"
+msgstr "Contacto"
+
+#: core/templates/footer.html:9
+msgid "fale conosco"
+msgstr "hable con nosotros"
+
+#: core/templates/footer.html:22
+msgid "Princípios"
+msgstr "Principios"
+
+#: core/templates/footer.html:25
+msgid "\"Generosidade Mental\""
+msgstr "\"Generosidad mental\""
+
+#: core/templates/footer.html:26
+msgid "\"Coerência Etica\""
+msgstr "\"Coherencia ética\""
+
+#: core/templates/footer.html:27
+msgid "\"Humildade Intelectual\""
+msgstr "\"Humildad intelectual\""
+
+#: core/templates/footer.html:35
+msgid "Redes Sociais"
+msgstr "Redes sociales"
+
+#: core/templates/form.html:10
+msgid "Preencha seu Nome"
+msgstr "Ingrese su nombre"
+
+#: core/templates/form.html:13
+msgid "Preencha seu E-mail"
+msgstr "Complete su correo electrónico"
+
+#: core/templates/form.html:16
+#, fuzzy
+#| msgid "Assunto"
+msgid "Preencha Assunto"
+msgstr "Tema en Cuestion"
+
+#: core/templates/form.html:20
+msgid "Preencha sua Mensagem"
+msgstr "Complete su mensaje"
+
+#: core/templates/form.html:24
+#, fuzzy
+#| msgid "Mensagem"
+msgid "Enviar Mensagem"
+msgstr "Mensaje"
+
+#: core/templates/form.html:25
+msgid "Redefinir"
+msgstr "Reiniciar"
+
+#: core/templates/one.html:6 core/templates/quemsou.html:8
+msgid "Quem Sou"
+msgstr "Quien soy"
+
+#: core/templates/one.html:8
+msgid ""
+"De Natureza paciente, aprecio muito o que Linux oferece há todos, o "
+"ciclismo, e os esportes como modo operante em meu kernel, o que mais me "
+"chama atenção no Linux, é a incrível capacidade dele à se moldar em nossas "
+"infra estruturas, versatilidade, entre outros adjetivos, isso é o "
+"diferencial no mundo competitivo, minha experiencia em Linux foi construída "
+"ao longo de +15 anos de profissão em ambientes de pequeno e médio porte, "
+"iniciando comprando revistas da infoexame em 2002 e até hoje sempre atento "
+"as novas tecnologias."
+msgstr ""
+"De carácter paciente, valoro mucho lo que ofrece Linux para todos, el "
+"ciclismo y el deporte como modo de funcionamiento en mi kernel, lo que más "
+"me llama la atención de Linux, es su increíble capacidad para moldearse en "
+"nuestras infraestructuras, versatilidad, entre otros adjetivos, este es el "
+"diferencial en el mundo competitivo, mi experiencia en Linux se construyó a "
+"lo largo de +15 años de profesión en entornos pequeños y medianos, "
+"comenzando comprando revistas de infoexame en 2002 y hasta el día de hoy "
+"siempre atento a las nuevas tecnologías."
+
+#: core/templates/one.html:10 core/templates/three.html:13
+#: core/templates/three.html:25 core/templates/three.html:37
+msgid "Leia Mais"
+msgstr "Lea mas"
+
+#: core/templates/quemsou.html:12
+msgid ""
+"De Natureza paciente, aprecio muito o que Linux oferece há todos, o "
+"ciclismo, e os esportes como modo operante em meu kernel, o que mais me "
+"chama atenção no Linux, é a incrível capacidade dele à se moldar em nossas "
+"infra estruturas, versatilidade, entre outros adjetivos, isso é o "
+"diferencial no mundo competitivo, minha experiencia em Linux foi construída "
+"ao longo de +15 anos de profissão em ambientes de pequeno e médio porte, "
+"iniciando comprando revistas da infoexame em 2002 e até hoje sempre atento "
+"as novas tecnologias. Trabalho como Analista de Sistemas, melhor \"dizendo\" "
+"Sysadmin participando de alguns projetos importantes, onde o mais recente é "
+"o Vacinejá da Prefeitura de Fortaleza, nas horas vagas sou ciclista, onde "
+"utilizo o esporte para desintoxicar a mente, excelente meio de transporte e "
+"já participei de algumas competições, sou entusiasta de novas tecnologias e "
+"novos padrões. Na minha vida profissional procuro automatizar, monitorar os "
+"serviços ao meu redor para melhorar a agilidade, confiabilidade, "
+"diponibilidade dos mesmos."
+msgstr ""
+"De carácter paciente, valoro mucho lo que ofrece Linux para todos, el "
+"ciclismo y el deporte como modo de funcionamiento en mi kernel, lo que más "
+"me llama la atención de Linux, es su increíble capacidad para moldearse en "
+"nuestras infraestructuras, versatilidad, entre otros adjetivos, este es el "
+"diferencial en el mundo competitivo, mi experiencia en Linux se construyó a "
+"lo largo de +15 años de profesión en entornos pequeños y medianos, "
+"comenzando comprando revistas de infoexame en 2002 y hasta hoy siempre "
+"atento a las nuevas tecnologías. Trabajo como Analista de Sistemas, mejor "
+"\"diciendo\" Sysadmin participando en algunos proyectos importantes, donde "
+"el más reciente es el Vacinejá del Ayuntamiento de Fortaleza, en mi tiempo "
+"libre soy ciclista, donde uso el deporte para desintoxicar la mente, "
+"Excelente medio de transporte y ya participé en algunos concursos, me "
+"entusiasman las nuevas tecnologías y los nuevos estándares. En mi vida "
+"profesional trato de automatizar, monitorear los servicios que me rodean "
+"para mejorar la agilidad, confiabilidad, disponibilidad."
+
+#: core/templates/quemsou.html:17
+msgid ""
+"Porem no pessoal procuro por experiencias de conquistas, prazer e saúde. nas "
+"minhas férias costumo fazer viagens de bicicleta, já conheci as praias de "
+"quase todo litoral cearense e do piauí, serras e sertão do ceará e em 2017 e "
+"2019 tive o prazer de fazer o caminho da fé, foi uma experiência que "
+"ultrapassou minhas expectativas, por se tratar de lugar onde podemos estar "
+"diretamente envolvido pela natureza, onde o tempo quase não existe, tudo é "
+"calmo e tem sua hora de acontecer, você estará sempre no seu limite físico e "
+"mental, e você se sente muito agradecido por está ali pedalando ou "
+"caminhando conhecendo pessoas, costumes, cultura de outra região do brasil e "
+"principalmente se conhecendo, se encontrando."
+msgstr ""
+"Pero en el personal busco experiencias de conquistas, placer y salud. en mis "
+"vacaciones suelo viajar en bicicleta, he conocido las playas de casi toda la "
+"costa de cearense y piauí, montañas e hinterland de ceará y en 2017 y 2019 "
+"tuve el gusto de hacer el camino de la fe, fue una experiencia que superó "
+"mis expectativas, porque es un lugar donde podemos estar directamente "
+"involucrados por la naturaleza, donde el tiempo casi no existe, todo está en "
+"calma y tiene su tiempo para suceder, siempre estarás en tu límite físico y "
+"mental, y te sientes muy agradecido de estar allí pedaleando o caminando "
+"conociendo gente, costumbres, cultura de otra región de Brasil y sobre todo "
+"conociéndose, encontrándose."
+
+#: core/templates/quemsou.html:20
+msgid "Imagens das viagens"
+msgstr "Imágenes de viajes"
+
+#: core/templates/three.html:9
+#, fuzzy
+#| msgid "Atualização"
+msgid "Automação"
+msgstr "Actualizar"
+
+#: core/templates/three.html:11
+msgid ""
+"Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem "
+"ullamcorper laoreet, lectus arcu."
+msgstr ""
+
+#: core/templates/three.html:21
+msgid "Web Server"
+msgstr "Servidor web"
+
+#: core/templates/three.html:23
+msgid ""
+"Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, "
+"nec dapibus tortor nibh sed."
+msgstr ""
+
+#: core/templates/three.html:33
+msgid "Syslog"
+msgstr "Syslog"
+
+#: core/templates/three.html:35
+msgid ""
+"Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet "
+"mi ullamcorper vehicula."
+msgstr ""
+
+#: core/templates/two.html:8
+msgid "Sistemas Livres"
+msgstr "Sistemas libres"
+
+#: core/templates/two.html:13
+msgid ""
+"A capacidade dele à se moldar em nossas infra estruturas, versatilidade, "
+"entre outros adjetivos, isso é o diferencial no mundo competitivo."
+msgstr ""
+"Su capacidad de formarse en nuestras infraestructuras, versatilidad, entre "
+"otros adjetivos, es el diferencial en el mundo competitivo."
+
+#: core/templates/two.html:19
+msgid "Ciclismo"
+msgstr "Ciclismo"
+
+#: core/templates/two.html:24
+msgid ""
+"É incrível o contato que temos com a natureza quando decidimos nos aventurar "
+"pelos caminhos que deus torna possível em cima de uma bicicleta."
+msgstr ""
+"Es increíble el contacto que tenemos con la naturaleza cuando decidimos "
+"aventurarnos por los caminos que Dios hace posible en bicicleta."
+
 #: core/views.py:25
 msgid "E-mail enviado com sucesso!"
-msgstr "Email enviado con éxito"
+msgstr "Email enviado con éxito!"
 
 #: core/views.py:29
 msgid "Erro ao enviar E-mail"
